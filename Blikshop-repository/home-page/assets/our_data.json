@@ -1,0 +1,80 @@
+[
+  {
+    "varenummer": "284230060-BM",
+    "Materiale <materiale> (admin)": "Kobber",
+    "Type": "halvhård",
+    "Vægt pr plade (kg)": "10,7",
+    "Farve <farve> (admin)": "",
+    "Bredde [mm] <bredde> (admin)": 1000,
+    "Godstykkelse [mm] <tykkelse> (admin)": "0,6",
+    "Længde [mm] <laengde> (admin)": 2000,
+    "kg pris": 87,
+    "Max Length <max_lenght> (admin)": 3200,
+    "Max Width <max_width> (admin)": 1000
+  },
+  {
+    "varenummer": "284230070-BM",
+    "Materiale <materiale> (admin)": "Kobber",
+    "Type": "halvhård",
+    "Vægt pr plade (kg)": "12,5",
+    "Farve <farve> (admin)": "",
+    "Bredde [mm] <bredde> (admin)": 1000,
+    "Godstykkelse [mm] <tykkelse> (admin)": "0,7",
+    "Længde [mm] <laengde> (admin)": 2000,
+    "kg pris": 83,
+    "Max Length <max_lenght> (admin)": 3200,
+    "Max Width <max_width> (admin)": 1000
+  },
+  {
+    "varenummer": "284230075-BM",
+    "Materiale <materiale> (admin)": "Kobber",
+    "Type": "halvhård",
+    "Vægt pr plade (kg)": "13,5",
+    "Farve <farve> (admin)": "",
+    "Bredde [mm] <bredde> (admin)": 1000,
+    "Godstykkelse [mm] <tykkelse> (admin)": "0,75",
+    "Længde [mm] <laengde> (admin)": 2000,
+    "kg pris": 95,
+    "Max Length <max_lenght> (admin)": 3200,
+    "Max Width <max_width> (admin)": 1000
+  },
+  {
+    "varenummer": "286230070-BM",
+    "Materiale <materiale> (admin)": "Aluminium",
+    "Type": "EN AW-1050A",
+    "Vægt pr plade (kg)": "3,78",
+    "Farve <farve> (admin)": "",
+    "Bredde [mm] <bredde> (admin)": 1000,
+    "Godstykkelse [mm] <tykkelse> (admin)": "0,7",
+    "Længde [mm] <laengde> (admin)": 2000,
+    "kg pris": 31,
+    "Max Length <max_lenght> (admin)": 3000,
+    "Max Width <max_width> (admin)": 1500
+  },
+  {
+    "varenummer": "288440113-BM",
+    "Materiale <materiale> (admin)": "Zink",
+    "Type": "",
+    "Vægt pr plade (kg)": "10",
+    "Farve <farve> (admin)": "Blank",
+    "Bredde [mm] <bredde> (admin)": 1000,
+    "Godstykkelse [mm] <tykkelse> (admin)": "0,7",
+    "Længde [mm] <laengde> (admin)": 2000,
+    "kg pris": 35,
+    "Max Length <max_lenght> (admin)": 3200,
+    "Max Width <max_width> (admin)": 1000
+  },
+  {
+    "varenummer": "3141389-BM",
+    "Materiale <materiale> (admin)": "Messing",
+    "Type": "Blød",
+    "Vægt pr plade (kg)": "11,83",
+    "Farve <farve> (admin)": "",
+    "Bredde [mm] <bredde> (admin)": 1000,
+    "Godstykkelse [mm] <tykkelse> (admin)": "0,7",
+    "Længde [mm] <laengde> (admin)": 2000,
+    "kg pris": 140,
+    "Max Length <max_lenght> (admin)": 2000,
+    "Max Width <max_width> (admin)": 1000
+  }
+]

@@ -1,0 +1,187 @@
+* {
+  overflow-x: hidden;
+  font-family: "Oswald", sans-serif;
+  margin: 0px;
+  text-decoration: none;
+  overflow-y: hidden;
+}
+.main {
+  display: flex;
+  max-height: 100vh;
+}
+svg {
+  width: 30px;
+  height: 30px;
+}
+.filter img {
+  width: 30px;
+  height: 30px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 50%;
+}
+.filter {
+  background-color: #192d3a;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  color: white;
+  min-height: 100vh;
+  min-width: 200px;
+  max-width: 200px;
+  transition: all 0.5s;
+  padding: 10px;
+  max-height: 100%;
+  overflow-y: visible;
+  padding-bottom: 10px;
+}
+.colors {
+  padding-bottom: 10px;
+}
+.align {
+  padding: 0.5rem;
+  display: flex;
+}
+.align p {
+  min-width: 70px;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+.align input {
+  margin-top: 8px;
+  position: absolute;
+  right: 12px;
+}
+.materialer-title {
+  padding-top: 30px;
+  font-size: 20px;
+}
+.content {
+  margin: 20px 20px 0px 20px;
+  width: 100%;
+  transition: all 0.5s;
+  max-height: 100vh;
+}
+
+.navigation-links {
+  padding-bottom: 10px;
+  display: flex;
+}
+.navigation-links a {
+  padding-right: 5px;
+}
+
+.dropdown-1 {
+  position: absolute;
+  right: 120px;
+  top: 90px;
+  width: 100px;
+  height: 15px;
+  overflow: visible;
+}
+.dropdown-2 {
+  position: absolute;
+  right: 10px;
+  top: 90px;
+  width: 100px;
+  height: 15px;
+  overflow: visible;
+}
+.dropdown input {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 75px;
+  height: 90%;
+  cursor: pointer;
+  background: wheat;
+  border: none;
+  outline: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 12px;
+  font-size: 16px;
+}
+.dropdown .options {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  z-index: 100;
+  visibility: hidden;
+}
+.dropdown .options.activated {
+  visibility: visible;
+}
+.dropdown .options div {
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+.dropdown .options div:hover {
+  background-color: whitesmoke;
+}
+.dropdown i {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.main-container {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.5rem;
+  max-height: 100%;
+  overflow-y: visible;
+}
+.container-element {
+  text-align: center;
+  align-content: center;
+  max-width: 560px;
+  padding-bottom: 15px;
+}
+.container-element img {
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+}
+.controler-dropdown {
+  position: absolute;
+  top: 50px;
+  background-color: aquamarine;
+}
+.filter-button {
+  visibility: hidden;
+}
+
+.filter-button.toggle {
+  transform: translateX(210px);
+}
+.container {
+  height: calc(100% - 129px);
+}
+@media only screen and (max-width: 740px) {
+  .filter {
+    position: absolute;
+    transform: translateX(-220px);
+    width: 0%;
+  }
+  .content {
+    width: 100%;
+  }
+  #filter-button {
+    visibility: visible;
+    transition: all 0.5s;
+  }
+  .toggle {
+    position: absolute;
+    z-index: 1000;
+    transform: translateX(0px);
+  }
+  .toggle-text {
+    padding-top: 34.5px;
+  }
+}
